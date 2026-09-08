@@ -1,0 +1,483 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-08T16:33:00.878Z",
+  "items": [
+    {
+      "id": "deepseek-ai/deepseek-harness",
+      "name": "deepseek-ai/deepseek-harness",
+      "displayName": "deepseek-ai/deepseek-harness",
+      "summary": "DeepSeek Harness: Everything is a Plugin.",
+      "repository": {
+        "url": "https://github.com/deepseek-ai/deepseek-harness"
+      }
+    },
+    {
+      "id": "nexu-io/open-design",
+      "name": "nexu-io/open-design",
+      "displayName": "nexu-io/open-design",
+      "summary": "🎨 Best DeepSeek Harness Design Plugin. The open-source Claude Design alternative. 🖥️ Local-first desktop app. 🖼️ Your coding agent becomes the design engine: prototypes, landing pages, dashboards, slides, images & video — real files, HTML/PDF/PPTX/MP4 export. 🤖 Claude Code / Codex / Cursor / DeepSeek Harness / OpenCode & 20+ CLIs via BYOK.",
+      "repository": {
+        "url": "https://github.com/nexu-io/open-design"
+      }
+    },
+    {
+      "id": "ruvnet/ruflo",
+      "name": "ruvnet/ruflo",
+      "displayName": "ruvnet/ruflo",
+      "summary": "🌊 The original agent meta-harness. Deploy intelligent multi-player swarms, coordinate autonomous workflows, and build conversational AI systems. Features adaptive memory, self-learning intelligence, RAG integration, and native Claude Code / Codex / Hermes and many more Integrated",
+      "repository": {
+        "url": "https://github.com/ruvnet/ruflo"
+      }
+    },
+    {
+      "id": "tt-a1i/archify",
+      "name": "tt-a1i/archify",
+      "displayName": "tt-a1i/archify",
+      "summary": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+      "repository": {
+        "url": "https://github.com/tt-a1i/archify"
+      }
+    },
+    {
+      "id": "amruthpillai/reactive-resume",
+      "name": "amruthpillai/reactive-resume",
+      "displayName": "amruthpillai/reactive-resume",
+      "summary": "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever. Try it out today!",
+      "repository": {
+        "url": "https://github.com/amruthpillai/reactive-resume"
+      }
+    },
+    {
+      "id": "volcengine/openviking",
+      "name": "volcengine/OpenViking",
+      "displayName": "volcengine/OpenViking",
+      "summary": "Self-evolving Context Database for AI Agents. Unify Agent Memory, Knowledge RAG and Skills.",
+      "repository": {
+        "url": "https://github.com/volcengine/OpenViking"
+      }
+    },
+    {
+      "id": "esengine/deepseek-reasonix",
+      "name": "esengine/DeepSeek-Reasonix",
+      "displayName": "esengine/DeepSeek-Reasonix",
+      "summary": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "repository": {
+        "url": "https://github.com/esengine/DeepSeek-Reasonix"
+      }
+    },
+    {
+      "id": "freestylefly/awesome-gpt-image-2",
+      "name": "freestylefly/awesome-gpt-image-2",
+      "displayName": "freestylefly/awesome-gpt-image-2",
+      "summary": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，530+ 个案例逆向工程，20+ 套工业级模板，并提炼出Skills，持续更新中",
+      "repository": {
+        "url": "https://github.com/freestylefly/awesome-gpt-image-2"
+      }
+    },
+    {
+      "id": "molunerfinn/picgo",
+      "name": "Molunerfinn/PicGo",
+      "displayName": "Molunerfinn/PicGo",
+      "summary": ":rocket: The Ultimate Image Uploader for Efficient Creators. Supports Obsidian, Typora, VS Code etc. and 60+ image hosting services  (S3, GitHub, Cloudflare R2, Imgur, Aliyun OSS...). Paste, upload, done.",
+      "repository": {
+        "url": "https://github.com/Molunerfinn/PicGo"
+      }
+    },
+    {
+      "id": "anywhere-labs/dsh-desktop",
+      "name": "anywhere-labs/dsh-desktop",
+      "displayName": "anywhere-labs/dsh-desktop",
+      "summary": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
+      "repository": {
+        "url": "https://github.com/anywhere-labs/dsh-desktop"
+      }
+    },
+    {
+      "id": "titanwings/distilly",
+      "name": "titanwings/distilly",
+      "displayName": "titanwings/distilly",
+      "summary": "Distilly — Distill how they think into reusable Skills for any Agent or Bot. Formerly Colleague Skill（原同事 Skill）.",
+      "repository": {
+        "url": "https://github.com/titanwings/distilly"
+      }
+    },
+    {
+      "id": "nocobase/nocobase",
+      "name": "nocobase/nocobase",
+      "displayName": "nocobase/nocobase",
+      "summary": "NocoBase is an open-source AI + no-code platform for building business systems fast. Instead of generating everything from scratch, AI works on top of production-proven infrastructure and a WYSIWYG no-code interface, so you get both speed and reliability.",
+      "repository": {
+        "url": "https://github.com/nocobase/nocobase"
+      }
+    },
+    {
+      "id": "tencent/weknora",
+      "name": "Tencent/WeKnora",
+      "displayName": "Tencent/WeKnora",
+      "summary": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+      "repository": {
+        "url": "https://github.com/Tencent/WeKnora"
+      }
+    },
+    {
+      "id": "nagi-ovo/voyager",
+      "name": "Nagi-ovo/voyager",
+      "displayName": "Nagi-ovo/voyager",
+      "summary": "Enhancement suite for Gemini, AI Studio, Claude & ChatGPT — plus a prompt manager for any websites, DeepSeek Harness included. / 面向 Gemini、AI Studio、Claude 与 ChatGPT 的增强套件；其中的提示词管理器可用于任意网站，如 DeepSeek Harness。",
+      "repository": {
+        "url": "https://github.com/Nagi-ovo/voyager"
+      }
+    },
+    {
+      "id": "walkinglabs/learn-harness-engineering",
+      "name": "walkinglabs/learn-harness-engineering",
+      "displayName": "walkinglabs/learn-harness-engineering",
+      "summary": "Harness engineering beginner tutorial, from 0 to 1",
+      "repository": {
+        "url": "https://github.com/walkinglabs/learn-harness-engineering"
+      }
+    },
+    {
+      "id": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "name": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "displayName": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "summary": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "repository": {
+        "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin"
+      }
+    },
+    {
+      "id": "evermind-ai/everos",
+      "name": "EverMind-AI/EverOS",
+      "displayName": "EverMind-AI/EverOS",
+      "summary": "One portable memory layer for every AI agent: local-first, Markdown-native, user-owned, and self-evolving across apps, tools, and workflows.",
+      "repository": {
+        "url": "https://github.com/EverMind-AI/EverOS"
+      }
+    },
+    {
+      "id": "memtensor/memos",
+      "name": "MemTensor/MemOS",
+      "displayName": "MemTensor/MemOS",
+      "summary": "Self-evolving memory OS for LLM & AI Agents: ultra-persistent memory, hybrid-retrieval, and cross-task skill reuse, with 35.24% token savings and DeepSeek Harness support.",
+      "repository": {
+        "url": "https://github.com/MemTensor/MemOS"
+      }
+    },
+    {
+      "id": "yaoapp/yao",
+      "name": "YaoApp/yao",
+      "displayName": "YaoApp/yao",
+      "summary": "✨ All your agents and workspaces in one place, on every device you own. Track tasks on a board, accessible from desktop, mobile, browser, or API. Self-hosted.",
+      "repository": {
+        "url": "https://github.com/YaoApp/yao"
+      }
+    },
+    {
+      "id": "zhu1090093659/dsh-web",
+      "name": "zhu1090093659/dsh-web",
+      "displayName": "zhu1090093659/dsh-web",
+      "summary": "DeepSeek Harness (DSH) Web Plugin Aggregation Ecosystem · Everything is a plugin, distributed via the Creative Workshop",
+      "repository": {
+        "url": "https://github.com/zhu1090093659/dsh-web"
+      }
+    },
+    {
+      "id": "yjh051108/dsh-routing-suite",
+      "name": "yjh051108/dsh-routing-suite",
+      "displayName": "yjh051108/dsh-routing-suite",
+      "summary": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
+      "repository": {
+        "url": "https://github.com/yjh051108/dsh-routing-suite"
+      }
+    },
+    {
+      "id": "plastic-labs/honcho",
+      "name": "plastic-labs/honcho",
+      "displayName": "plastic-labs/honcho",
+      "summary": "Memory library for building stateful agents",
+      "repository": {
+        "url": "https://github.com/plastic-labs/honcho"
+      }
+    },
+    {
+      "id": "anbeime/skill",
+      "name": "anbeime/skill",
+      "displayName": "anbeime/skill",
+      "summary": "收录最全、更新最快的技能Skills商店：精选原创技能包（涵盖文档处理、内容创作、编程开发、机器学习、自动化工作流），全部打包好可直接安装使用！同时自动抓取GitHub上万个Skills项目，按分类、更新时间、Star数量整理。The most comprehensive and frequently updated AI Agent skill library, featuring curated skill packs across document processing, content creation, programming, machine learning, automated workflows, and many more domains.",
+      "repository": {
+        "url": "https://github.com/anbeime/skill"
+      }
+    },
+    {
+      "id": "zseven-w/openpencil",
+      "name": "ZSeven-W/openpencil",
+      "displayName": "ZSeven-W/openpencil",
+      "summary": "The world's first open-source AI-native vector design tool and the first to feature concurrent Agent Teams. Design-as-Code. Turn prompts into UI directly on the live canvas. A modern alternative to Pencil.",
+      "repository": {
+        "url": "https://github.com/ZSeven-W/openpencil"
+      }
+    },
+    {
+      "id": "q00/ouroboros",
+      "name": "Q00/ouroboros",
+      "displayName": "Q00/ouroboros",
+      "summary": "Agent OS: the agent gets smarter on its own. We just hold the line: Interview-gated, staged evaluation, budgeted evolution loop. MCP server, 14 runtimes: Claude Code, Codex CLI, Gemini CLI, OpenCode, Copilot, Kiro and more.",
+      "repository": {
+        "url": "https://github.com/Q00/ouroboros"
+      }
+    },
+    {
+      "id": "huangruiteng/loopx",
+      "name": "huangruiteng/loopx",
+      "displayName": "huangruiteng/loopx",
+      "summary": "Long-horizon agent control plane for durable, governed work across Codex, Claude Code, and other harnesses.",
+      "repository": {
+        "url": "https://github.com/huangruiteng/loopx"
+      }
+    },
+    {
+      "id": "devin-axis/ipollowork",
+      "name": "Devin-AXIS/iPolloWork",
+      "displayName": "Devin-AXIS/iPolloWork",
+      "summary": "Enterprise-grade, local-first Agent Workbench for people and agent teams. A unified multi-engine workspace for Codex Harness, DeepSeek Harness, and OpenCode, with unified plugins and Skills, multi-agent projects and tasks, and editable code, documents, presentations, design, and video.",
+      "repository": {
+        "url": "https://github.com/Devin-AXIS/iPolloWork"
+      }
+    },
+    {
+      "id": "dataelement/dsh-desktop",
+      "name": "dataelement/dsh-desktop",
+      "displayName": "dataelement/dsh-desktop",
+      "summary": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
+      "repository": {
+        "url": "https://github.com/dataelement/dsh-desktop"
+      }
+    },
+    {
+      "id": "crafter-station/petdex",
+      "name": "crafter-station/petdex",
+      "displayName": "crafter-station/petdex",
+      "summary": "A public gallery of animated pets for Codex, Claude Code, DeepSeek Harness, Hermes, OpenCode, Gemini CLI, and more.",
+      "repository": {
+        "url": "https://github.com/crafter-station/petdex"
+      }
+    },
+    {
+      "id": "liustack/modlens",
+      "name": "modlens",
+      "displayName": "modlens",
+      "summary": "The first vision plugin for DeepSeek Harness, and the vision bridge for every text-only coding agent. Paste an image, get structured JSON evidence (OCR, layout, semantics). | 全网最强 DeepSeek Harness 外挂视觉插件，为 DeepSeek、GLM 等纯文本模型外挂视觉能力，粘贴图片即得结构化 JSON 证据（OCR、版面、语义）。",
+      "repository": {
+        "url": "https://github.com/liustack/modlens"
+      },
+      "categories": [
+        "tools"
+      ]
+    },
+    {
+      "id": "xiaobright/dsh-anchored-standard",
+      "name": "xiaobright/dsh-anchored-standard",
+      "displayName": "xiaobright/dsh-anchored-standard",
+      "summary": "Two-phase DeepSeek Harness preset: Minimal-aligned bootstrap, then full Standard tools (Project2 98/99)",
+      "repository": {
+        "url": "https://github.com/xiaobright/dsh-anchored-standard"
+      }
+    },
+    {
+      "id": "strukto-ai/mirage",
+      "name": "mirage-dsh",
+      "displayName": "mirage-dsh",
+      "summary": "Swaps the filesystem and bash providers for a mirage virtual workspace: file tools and shell commands run over mounted resources (RAM, S3, Redis, Slack, Gmail, Notion, Postgres) instead of the host disk, with per-mount read/write/exec modes, per-command sandbox routing (monty, pyodide, quickjs in process; docker, e2b, daytona remote), and installed CLIs (git, gh, slack, linear, ntn, gws, or one you register) as head words in the virtual terminal.",
+      "repository": {
+        "url": "https://github.com/strukto-ai/mirage"
+      },
+      "categories": [
+        "dev"
+      ]
+    },
+    {
+      "id": "dsh-market/dsh-market",
+      "name": "dsh-market",
+      "displayName": "dsh-market",
+      "summary": "Browse, search and install community plugins from inside DeepSeek Harness settings, with category filters, one-click updates, enable/disable, theme switching and configuration backup.",
+      "repository": {
+        "url": "https://github.com/dsh-market/dsh-market"
+      },
+      "categories": [
+        "tools"
+      ]
+    },
+    {
+      "id": "agentscope-ai/reme",
+      "name": "agentscope-ai/ReMe",
+      "displayName": "agentscope-ai/ReMe",
+      "summary": "ReMe: Memory Management Kit for Agents - Remember Me, Refine Me.",
+      "repository": {
+        "url": "https://github.com/agentscope-ai/ReMe"
+      }
+    },
+    {
+      "id": "omdsh-dev/dsh-better-sidebar",
+      "name": "DSH-better-sidebar",
+      "displayName": "DSH-better-sidebar",
+      "summary": "开放的侧边栏底座，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/侧边对话/Git/子代理页面 ｜ Open sidebar foundation, supports third-party extensions to register new sidebar pages. Built-in file rendering/editing, terminal, side chat, Git, and sub-agent pages.",
+      "repository": {
+        "url": "https://github.com/omdsh-dev/DSH-better-sidebar"
+      },
+      "categories": [
+        "ui"
+      ]
+    },
+    {
+      "id": "whiteguo233/openbiliclaw",
+      "name": "whiteguo233/OpenBiliClaw",
+      "displayName": "whiteguo233/OpenBiliClaw",
+      "summary": "本地私有、开源的自进化跨平台 AI 内容发现 Agent：先理解你，再主动从 B站、小红书、抖音、YouTube、X、知乎、Reddit、微博等平台与开放 Web 寻找内容。（支持 deepseek harness 插件） | Local-first open-source cross-platform AI content discovery agent: understands you, then proactively finds content across Bilibili, Xiaohongshu, Douyin, YouTube, X, Zhihu, Reddit, Weibo and the open web.（support deepseek harness plugin）",
+      "repository": {
+        "url": "https://github.com/whiteguo233/OpenBiliClaw"
+      }
+    },
+    {
+      "id": "foryourhealth111-pixel/vibe-skills",
+      "name": "foryourhealth111-pixel/Vibe-Skills",
+      "displayName": "foryourhealth111-pixel/Vibe-Skills",
+      "summary": "Intelligent Skill routing and workflow orchestration for AI agents — +21.12 pp reward, −29.6% tokens on SkillsBench with DeepSeekV4Flash-VE.",
+      "repository": {
+        "url": "https://github.com/foryourhealth111-pixel/Vibe-Skills"
+      }
+    },
+    {
+      "id": "edison7009/echobird",
+      "name": "edison7009/EchoBird",
+      "displayName": "edison7009/EchoBird",
+      "summary": "One-click install + model switch:Claude Code,Codex CLI (OpenAI), Grok Build (xAI), DeepSeek Harness, Kimi Code (Moonshot) ,Qwen Code,Aider,OpenCode,MiMo Code (Xiaomi),ZCode (Z.AI),OpenClaw,Pi,OpenScience,Vibe-Trading,Claude Desktop (3P profile),ChatGPT desktop,OpenCode Desktop,",
+      "repository": {
+        "url": "https://github.com/edison7009/EchoBird"
+      }
+    },
+    {
+      "id": "tiger3807861189/j-space-cognition-suite-v3.7",
+      "name": "Tiger3807861189/J-Space-Cognition-Suite-V3.7",
+      "displayName": "Tiger3807861189/J-Space-Cognition-Suite-V3.7",
+      "summary": "J-Space Cognition Suite V3.7 - AI cognitive-enhancement Skills based on Anthropic's J-space global workspace research. | 哔哩哔哩：Tiger380 (UID 3494375382321675) — https://space.bilibili.com/3494375382321675",
+      "repository": {
+        "url": "https://github.com/Tiger3807861189/J-Space-Cognition-Suite-V3.7"
+      }
+    },
+    {
+      "id": "chuspeeism/dashi-taskboard",
+      "name": "chuspeeism/dashi-taskboard",
+      "displayName": "chuspeeism/dashi-taskboard",
+      "summary": "现代化可灵活嵌入的任务面板，支持 Codex、DeepSeek Harness",
+      "repository": {
+        "url": "https://github.com/chuspeeism/dashi-taskboard"
+      }
+    },
+    {
+      "id": "ccch1mneyyy/dsh-tui",
+      "name": "dsh-TUI",
+      "displayName": "dsh-TUI",
+      "summary": "DSH 官方公众号收录的 TUI 补位插件：Claude Code 风，鲸鱼顶栏/实时状态/流式思考/双击 Esc 回滚/上下文进度+TPS。npm 一键装。  DSH official WeChat featured TUI plugin — Claude Code style: whale bar, live status, streaming thoughts, double-Esc rollback, context bar + TPS. npm one-click.",
+      "repository": {
+        "url": "https://github.com/ccch1mneyyy/dsh-TUI"
+      },
+      "categories": [
+        "ui"
+      ]
+    },
+    {
+      "id": "zilliztech/memsearch",
+      "name": "memsearch-dsh",
+      "displayName": "memsearch-dsh",
+      "summary": "Shared Markdown memory for DSH and other coding agents, with automatic capture, pre-step context injection, searchable recall, and a review panel.",
+      "repository": {
+        "url": "https://github.com/zilliztech/memsearch"
+      },
+      "categories": [
+        "memory"
+      ]
+    },
+    {
+      "id": "gcwing/openbitfun",
+      "name": "GCWing/OpenBitFun",
+      "displayName": "GCWing/OpenBitFun",
+      "summary": "OpenBitFun combines a high-performance agent runtime written in Rust with a polished desktop application. It pairs the depth of a Code Agent with open, general-purpose capabilities for work beyond software development.",
+      "repository": {
+        "url": "https://github.com/GCWing/OpenBitFun"
+      }
+    },
+    {
+      "id": "small-tailqwq/dsh-deep-whale",
+      "name": "dsh-deep-whale",
+      "displayName": "dsh-deep-whale",
+      "summary": "Whale Girl skin series for DeepSeek Harness. 适用于 DeepSeek Harness 的，鲸鱼娘系列皮肤。",
+      "repository": {
+        "url": "https://github.com/Small-tailqwq/dsh-deep-whale"
+      },
+      "categories": [
+        "theme"
+      ]
+    },
+    {
+      "id": "meteornox/deepseek-balance-whale-widget",
+      "name": "MeteorNOX/DeepSeek-Balance-Whale-Widget",
+      "displayName": "MeteorNOX/DeepSeek-Balance-Whale-Widget",
+      "summary": "A fixed-corner whale widget showing DeepSeek balance, today usage, per-turn cost and random talk lines, with sound effects and a menu.",
+      "repository": {
+        "url": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget"
+      },
+      "categories": [
+        "ui"
+      ]
+    },
+    {
+      "id": "tencent/browserskill",
+      "name": "Tencent/BrowserSkill",
+      "displayName": "Tencent/BrowserSkill",
+      "summary": "Let AI agents use your real, logged-in browser without interrupting your work. CLI + extension for browser automation across any shell-capable AI agent.",
+      "repository": {
+        "url": "https://github.com/Tencent/BrowserSkill"
+      }
+    },
+    {
+      "id": "alisa0808/vox-director",
+      "name": "Alisa0808/vox-director",
+      "displayName": "Alisa0808/vox-director",
+      "summary": "Turn one topic into a finished Vox-style paper-collage explainer/ad video — automated end to end on Atlas Cloud + ffmpeg. An agent skill.",
+      "repository": {
+        "url": "https://github.com/Alisa0808/vox-director"
+      }
+    },
+    {
+      "id": "dsh-tauri-desk/deepseek-harness-desktop",
+      "name": "dsh-tauri-desk/deepseek-harness-desktop",
+      "displayName": "dsh-tauri-desk/deepseek-harness-desktop",
+      "summary": "DeepSeek Harness Tauri 桌面版 | Only 5mb installer, zero environment setup, preset plugins, Windows / macOS / Linux.",
+      "repository": {
+        "url": "https://github.com/dsh-tauri-desk/deepseek-harness-desktop"
+      }
+    },
+    {
+      "id": "jesseovo/last30days-skill-cn",
+      "name": "Jesseovo/last30days-skill-cn",
+      "displayName": "Jesseovo/last30days-skill-cn",
+      "summary": "last30days-cn 是一个 AI Agent 技能（Skill），能够自动搜索中国互联网 8 大主流平台最近 30 天的内容，综合分析后生成有据可查的研究报告。",
+      "repository": {
+        "url": "https://github.com/Jesseovo/last30days-skill-cn"
+      }
+    },
+    {
+      "id": "zouyuxuan122/dsh-desktop-eac",
+      "name": "zouyuxuan122/DSH-Desktop-EAC",
+      "displayName": "zouyuxuan122/DSH-Desktop-EAC",
+      "summary": "DeepSeek Harness Desktop (dsh-desktop). EAC: Embracing All Creation (揽尽万象). Bundled Node.js runtime with full dsh-CLI kernel, one-click startup, 10 built-in UI themes.",
+      "repository": {
+        "url": "https://github.com/zouyuxuan122/DSH-Desktop-EAC"
+      }
+    }
+  ],
+  "page": {
+    "total": 8353
+  }
+}

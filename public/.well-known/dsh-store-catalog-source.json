@@ -1,0 +1,22 @@
+{
+  "manifestVersion": "1.0.0",
+  "providerId": "dev.acryl.dshstore",
+  "name": "DSH Store (community backup)",
+  "description": "Consolidated DSH plugin catalog aggregated from npm keyword discovery, 1024Store, awesome-dsh-plugin, GitHub topics, and editorial seeds. Static endpoint, refreshed by scheduled aggregation.",
+  "homepage": "https://acryldev.github.io/store/",
+  "attribution": {
+    "name": "dsh-store",
+    "url": "https://acryldev.github.io/store/"
+  },
+  "transport": {
+    "kind": "https-json",
+    "endpoint": "https://acryldev.github.io/store/v1/plugins",
+    "method": "GET"
+  },
+  "query": {
+    "supported": [],
+    "defaultLimit": 50,
+    "maxLimit": 50,
+    "sorts": []
+  }
+}
