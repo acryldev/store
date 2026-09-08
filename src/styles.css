@@ -270,6 +270,57 @@ h3 { font-size: 15px; font-weight: 600; }
   .command-label { display: none; }
 }
 
+/* Featured placements + publishing guide */
+
+.featured-section { margin-top: 48px; }
+.featured-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+.featured-card { display: grid; gap: 10px; align-content: start; padding: 20px; border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--border)); background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 7%, var(--background)), var(--background)); transition: border-color 160ms ease; }
+.featured-card:hover { border-color: var(--accent); }
+.featured-card h3 { font-size: 16px; }
+.featured-card p { color: var(--muted-foreground); font-size: 12px; line-height: 1.55; }
+.featured-card-head { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+.featured-chip { display: inline-flex; gap: 6px; align-items: center; padding: 2px 8px; border: 1px solid var(--accent); color: var(--accent); font-family: var(--font-mono); font-size: 9px; letter-spacing: .12em; text-transform: uppercase; }
+.featured-chip svg { width: 11px; height: 11px; }
+.origin-chip.featured { border-color: var(--accent); color: var(--accent); }
+.guide-teaser { justify-content: space-between; }
+.guide-link { display: inline-flex; gap: 7px; align-items: center; color: var(--accent); font-family: var(--font-mono); font-size: 10px; letter-spacing: .1em; text-transform: uppercase; }
+.guide-link svg { width: 12px; height: 12px; }
+
+.example-callout { display: flex; gap: 10px; margin-bottom: 16px; padding: 14px 16px; border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--border)); background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 7%, var(--background)), var(--background)); }
+.example-callout svg { flex: none; width: 15px; height: 15px; margin-top: 3px; color: var(--accent); }
+.example-callout p { color: var(--muted-foreground); font-size: 12px; line-height: 1.55; }
+.example-callout strong { color: var(--foreground); }
+.example-callout a { color: var(--accent); text-decoration: underline; white-space: nowrap; }
+
+.publishing { margin-top: 56px; }
+.publishing-header { display: grid; gap: 14px; max-width: 760px; }
+.publishing-header h1 em { font-style: normal; color: var(--accent); }
+.publishing-lede { color: var(--muted-foreground); font-size: 15px; line-height: 1.6; }
+.publishing-lede a { color: var(--accent); text-decoration: underline; }
+.publishing-example-links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 6px; }
+.guide-steps { display: grid; margin-top: 56px; border-top: 1px solid var(--border); }
+.guide-step { display: grid; grid-template-columns: 48px 1fr; gap: 20px; padding: 28px 0; border-bottom: 1px solid var(--border); }
+.guide-step-number { display: grid; width: 34px; height: 34px; place-items: center; border: 1px solid var(--accent); color: var(--accent); font-family: var(--font-mono); font-size: 13px; font-weight: 600; }
+.guide-step-body { display: grid; gap: 10px; align-content: start; }
+.guide-step-body h2 { font-size: 18px; }
+.guide-step-body p { max-width: 720px; color: var(--muted-foreground); font-size: 14px; line-height: 1.6; }
+.guide-step-body p strong { color: var(--foreground); }
+.guide-step-body code { padding: 1px 5px; background: var(--code); font-family: var(--font-mono); font-size: 12px; overflow-wrap: anywhere; }
+.guide-step-body a { color: var(--accent); text-decoration: underline; }
+.guide-step-body .command-block { max-width: 560px; }
+.guide-code { margin: 4px 0 0; padding: 14px 16px; border: 1px solid var(--border); background: var(--code); overflow-x: auto; }
+.guide-code code { color: var(--foreground); font-family: var(--font-mono); font-size: 12px; line-height: 1.6; white-space: pre; }
+.guide-cta { display: grid; gap: 12px; justify-items: start; margin-top: 48px; padding: 28px; border: 1px solid var(--border); }
+.guide-cta h2 { font-size: 18px; }
+.guide-cta p { max-width: 680px; color: var(--muted-foreground); font-size: 13px; line-height: 1.6; }
+.guide-cta a { color: var(--accent); text-decoration: underline; }
+
+@media (max-width: 680px) {
+  .guide-step { grid-template-columns: 1fr; gap: 12px; }
+  .publishing { margin-top: 40px; }
+  .guide-steps { margin-top: 40px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   * { transition-duration: 0.01ms !important; animation-duration: 0.01ms !important; }

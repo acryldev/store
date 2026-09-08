@@ -1,5 +1,5 @@
 import { useDeferredValue, useMemo, useState } from 'react'
-import { Check, ChevronLeft, ChevronRight, Copy, Database, PackageSearch, Search, ShieldCheck, Sparkles, Star, X } from 'lucide-react'
+import { ArrowRight, BookOpen, Check, ChevronLeft, ChevronRight, Copy, Database, PackageSearch, Search, ShieldCheck, Sparkles, Star, X } from 'lucide-react'
 import { Link, useSearchParams } from 'react-router-dom'
 import {
   assetUrl,
@@ -10,6 +10,7 @@ import {
   packagePath,
   sortPlugins,
 } from '../lib/catalog'
+import { featuredEntry, featuredPlugins } from '../lib/featured'
 import type { CatalogPlugin, CatalogSort } from '../types'
 
 const PAGE_SIZE = 60
@@ -61,6 +62,7 @@ export function PackagesPage() {
   const sort = asSort(searchParams.get('sort'))
   const page = asPage(searchParams.get('page'))
   const deferredQuery = useDeferredValue(query)
+  const featured = featuredPlugins()
 
   const results = useMemo(
     () => sortPlugins(filterPlugins(catalog.plugins, deferredQuery, category), sort),
@@ -98,6 +100,39 @@ export function PackagesPage() {
           <span><Database aria-hidden="true" />{catalog.plugins.length.toLocaleString('en')} packages · schema {catalog.schemaVersion}.0</span>
         </div>
       </section>
+
+      {featured.length > 0 && (
+        <section className="featured-section page-width">
+          <div className="directory-section-heading">
+            <p className="eyebrow">FEATURED</p>
+            <h2>Curated by the store</h2>
+          </div>
+          <div className="featured-grid">
+            {featured.map(({ plugin, entry }) => (
+              <Link key={plugin.id} className="featured-card" to={packagePath(plugin)}>
+                <div className="featured-card-head">
+                  <span className="featured-chip"><Sparkles aria-hidden="true" />{entry.badge}</span>
+                  {isAcrylPackage(plugin) && <span className="origin-chip acryl">ACRYL</span>}
+                </div>
+                <h3>{plugin.name}</h3>
+                <p>{entry.blurb}</p>
+                <InstallStrip plugin={plugin} />
+              </Link>
+            ))}
+            <Link className="featured-card guide-teaser" to="/publishing">
+              <div className="featured-card-head">
+                <span className="featured-chip"><BookOpen aria-hidden="true" />Guide</span>
+              </div>
+              <h3>Want yours here?</h3>
+              <p>
+                Read the publishing guide — it walks through publishing a DSH plugin step by step, with
+                acryl-dsh-editor-plugin as the worked example.
+              </p>
+              <span className="guide-link">Open the guide <ArrowRight aria-hidden="true" /></span>
+            </Link>
+          </div>
+        </section>
+      )}
 
       <section className="directory-section page-width">
         <div className="action-bar">
@@ -152,6 +187,7 @@ export function PackagesPage() {
                         {plugin.stars !== null && <span><Star aria-hidden="true" />{formatCompact(plugin.stars)}</span>}
                         {plugin.npmPackage && <span className="origin-chip">npm</span>}
                         {isAcrylPackage(plugin) && <span className="origin-chip acryl">ACRYL</span>}
+                        {featuredEntry(plugin.id) && <span className="origin-chip featured">Featured</span>}
                         {plugin.category && <span>{plugin.category}</span>}
                         {plugin.added && <span>{plugin.added}</span>}
                       </div>

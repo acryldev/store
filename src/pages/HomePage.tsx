@@ -1,6 +1,7 @@
 import { ArrowRight, ArrowUpRight, Package } from 'lucide-react'
 import { Link } from 'react-router-dom'
 import { acrylPackages, assetUrl, catalog, formatCompact } from '../lib/catalog'
+import { featuredEntry } from '../lib/featured'
 
 function sourceLabel(id: string): string {
   if (id.startsWith('npm:')) return `npm keyword “${id.slice(4)}”`
@@ -59,6 +60,7 @@ export function HomePage() {
               <Link className="recent-card" to={`/packages/${encodeURIComponent(plugin.id)}`} key={plugin.id}>
                 <strong><Package aria-hidden="true" />{plugin.name}</strong>
                 <p>{plugin.description.en ?? plugin.description.zh ?? 'No description provided.'}</p>
+                {featuredEntry(plugin.id) && <span className="origin-chip featured">Featured</span>}
                 <span className="origin-chip acryl">ACRYL</span>
                 <span className="card-meta">
                   {plugin.stars !== null && `${formatCompact(plugin.stars)} stars · `}
@@ -76,6 +78,9 @@ export function HomePage() {
         <div className="hero-cta">
           <Link className="button" to="/packages">
             Browse {catalog.plugins.length.toLocaleString('en')} packages <ArrowRight aria-hidden="true" />
+          </Link>
+          <Link className="button secondary" to="/publishing">
+            Publish your own package <ArrowUpRight aria-hidden="true" />
           </Link>
         </div>
       </section>

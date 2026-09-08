@@ -19,6 +19,7 @@ export function Shell() {
           <nav className={open ? 'site-nav open' : 'site-nav'} aria-label="Primary">
             <NavLink to="/" end onClick={close}>Store</NavLink>
             <NavLink to="/packages" onClick={close}>Packages</NavLink>
+            <NavLink to="/publishing" onClick={close}>Publish</NavLink>
             <a href="https://github.com/acryldev/store" target="_blank" rel="noreferrer" className="community-link">
               <Github aria-hidden="true" />Source
             </a>
@@ -38,6 +39,7 @@ export function Shell() {
         <p>The biggest updatable DSH &amp; ACRYL package collection that we maintain — aggregated from npm, community catalogs, and GitHub, and republished as an alternative catalog source.</p>
         <nav className="footer-links" aria-label="Footer">
           <Link to="/packages">Packages</Link>
+          <Link to="/publishing">Publishing guide</Link>
           <a href="https://acryl.dev/packages" target="_blank" rel="noreferrer">acryl.dev</a>
           <a href="https://github.com/deepseek-ai/deepseek-harness" target="_blank" rel="noreferrer">DeepSeek Harness</a>
           <a href={assetUrl('v1/plugins')}>Catalog API</a>

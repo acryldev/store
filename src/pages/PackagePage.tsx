@@ -1,4 +1,4 @@
-import { ArrowLeft, Box, ShieldAlert, ShieldCheck, Star, Tag } from 'lucide-react'
+import { ArrowLeft, Box, ShieldAlert, ShieldCheck, Sparkles, Star, Tag } from 'lucide-react'
 import { Link, useParams } from 'react-router-dom'
 import { CommandBox } from '../components/CommandBox'
 import {
@@ -7,6 +7,7 @@ import {
   isAcrylPackage,
   repositorySlug,
 } from '../lib/catalog'
+import { featuredEntry } from '../lib/featured'
 
 function formatCompact(value: number): string {
   return Intl.NumberFormat('en', { notation: 'compact', maximumFractionDigits: 1 }).format(value)
@@ -30,6 +31,7 @@ export function PackagePage() {
   const command = installCommand(plugin)
   const acryl = isAcrylPackage(plugin)
   const repo = repositorySlug(plugin.repository)
+  const featured = featuredEntry(plugin.id)
   return (
     <div className="package-detail page-width">
       <Link className="back-link" to="/packages"><ArrowLeft aria-hidden="true" />All packages</Link>
@@ -49,6 +51,14 @@ export function PackagePage() {
 
       <div className="package-layout">
         <div className="package-body">
+          {featured && (
+            <div className="example-callout">
+              <Sparkles aria-hidden="true" />
+              <p>
+                <strong>{featured.badge}.</strong> {featured.blurb} <Link to="/publishing">Read the publishing guide →</Link>
+              </p>
+            </div>
+          )}
           <div className="install-panel">
             <div className="panel-heading"><ShieldCheck aria-hidden="true" /><h2>Install</h2></div>
             {command ? (

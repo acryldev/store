@@ -55,6 +55,15 @@ For example, the ACRYL DSH Editor plugin:
 dsh plugin --profile web add acryl-dsh-editor-plugin
 ```
 
+## Publishing your own package
+
+Store discovery is automatic: publish an npm package tagged with the `dsh-plugin`
+keyword (add `acryl-package` for an ACRYL ecosystem highlight) and the daily
+aggregation lists it — no signup, no submission form. The full walkthrough, using
+[`acryl-dsh-editor-plugin`](https://github.com/acryldev/acryl-dsh-editor-plugin)
+([npm](https://www.npmjs.com/package/acryl-dsh-editor-plugin)) as the worked
+example, lives at **https://acryl.dev/store/publishing**.
+
 ## Security scanning
 
 Store aggregation is descriptive, not an endorsement. Review a package's source before
