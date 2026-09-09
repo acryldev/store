@@ -146,9 +146,9 @@ h3 { font-size: 15px; font-weight: 600; }
 .directory-section-heading { display: grid; gap: 6px; margin-bottom: 22px; }
 
 .recent-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
-.recent-card { position: relative; display: grid; gap: 8px; align-content: start; min-height: 148px; padding: 18px; border: 1px solid var(--border); transition: border-color 160ms ease; }
+.recent-card { position: relative; display: grid; gap: 8px; align-content: start; min-width: 0; min-height: 148px; padding: 18px; border: 1px solid var(--border); transition: border-color 160ms ease; }
 .recent-card:hover { border-color: var(--foreground); }
-.recent-card strong { display: flex; gap: 8px; align-items: center; font-size: 13px; }
+.recent-card strong { display: flex; gap: 8px; align-items: center; min-width: 0; overflow-wrap: anywhere; font-size: 13px; }
 .recent-card strong svg { width: 14px; height: 14px; flex: none; }
 .recent-card p { color: var(--muted-foreground); font-size: 12px; line-height: 1.5; }
 .card-meta { color: var(--muted-foreground); font-family: var(--font-mono); font-size: 10px; letter-spacing: .06em; text-transform: uppercase; }
@@ -175,19 +175,19 @@ h3 { font-size: 15px; font-weight: 600; }
 .reset-button:hover, .action-bar select:hover, .clear-button:hover { border-color: var(--foreground); }
 
 .discovery-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
-.discovery-card { display: grid; gap: 12px; align-content: start; padding: 18px; border: 1px solid var(--border); transition: border-color 160ms ease; }
+.discovery-card { display: grid; gap: 12px; align-content: start; min-width: 0; padding: 18px; border: 1px solid var(--border); transition: border-color 160ms ease; }
 .discovery-card:hover { border-color: var(--foreground); }
-.discovery-card-main { display: flex; gap: 12px; align-items: flex-start; }
+.discovery-card-main { display: flex; gap: 12px; align-items: flex-start; min-width: 0; }
 .package-mark { display: grid; flex: none; width: 38px; height: 38px; place-items: center; border: 1px solid var(--border); }
 .package-mark svg { width: 16px; height: 16px; }
 .discovery-card-copy { display: grid; min-width: 0; gap: 6px; }
 .discovery-card h3 { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .discovery-card p { display: -webkit-box; overflow: hidden; color: var(--muted-foreground); font-size: 12px; line-height: 1.5; -webkit-box-orient: vertical; -webkit-line-clamp: 2; }
 .package-facts { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; color: var(--muted-foreground); font-family: var(--font-mono); font-size: 10px; letter-spacing: .06em; text-transform: uppercase; }
-.package-facts > span { display: inline-flex; gap: 5px; align-items: center; }
+.package-facts > span { display: inline-flex; gap: 5px; align-items: center; overflow-wrap: anywhere; }
 .package-facts svg { width: 11px; height: 11px; }
-.package-install { display: flex; align-items: center; border: 1px solid var(--border); background: var(--code); }
-.package-install code { flex: 1; overflow-x: auto; padding: 8px 10px; white-space: nowrap; }
+.package-install { display: flex; align-items: center; min-width: 0; border: 1px solid var(--border); background: var(--code); }
+.package-install code { flex: 1; min-width: 0; overflow-x: auto; padding: 8px 10px; white-space: nowrap; }
 .package-install code span { color: var(--muted-foreground); margin-right: 7px; }
 .package-install button { display: grid; width: 32px; height: 32px; flex: none; padding: 0; place-items: center; border: 0; border-left: 1px solid var(--border); background: transparent; cursor: pointer; }
 .package-install button:hover { background: var(--foreground); color: var(--background); }
@@ -274,7 +274,7 @@ h3 { font-size: 15px; font-weight: 600; }
 
 .featured-section { margin-top: 48px; }
 .featured-grid { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
-.featured-card { display: grid; gap: 10px; align-content: start; padding: 20px; border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--border)); background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 7%, var(--background)), var(--background)); transition: border-color 160ms ease; }
+.featured-card { display: grid; gap: 10px; align-content: start; min-width: 0; padding: 20px; border: 1px solid color-mix(in srgb, var(--accent) 45%, var(--border)); background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 7%, var(--background)), var(--background)); transition: border-color 160ms ease; }
 .featured-card:hover { border-color: var(--accent); }
 .featured-card h3 { font-size: 16px; }
 .featured-card p { color: var(--muted-foreground); font-size: 12px; line-height: 1.55; }
