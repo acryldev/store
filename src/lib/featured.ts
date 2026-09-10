@@ -15,6 +15,12 @@ export const FEATURED: readonly FeaturedEntry[] = [
     blurb:
       'Our reference DSH plugin — a VS Code-style editor view (file tree, Monaco, ripgrep search, Markdown preview, git diff). It is also the worked example in the publishing guide.',
   },
+  {
+    id: 'cordis-plugin-graph',
+    badge: 'Featured',
+    blurb:
+      'A live, zoomable Cytoscape graph of the running Cordis context, as a Settings tab. Plugin fibers as phase-coloured nodes; toggleable inject-dependency, resolved-provider, and Loader-tree-nesting edges. Better eyes on the plugin architecture you actually booted.',
+  },
 ]
 
 export interface FeaturedPlugin {

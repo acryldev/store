@@ -21,6 +21,7 @@ import { fetchStore1024 } from './lib/aggregate/sources/store1024.mjs'
 import { fetchAwesomeDsh } from './lib/aggregate/sources/awesome-dsh.mjs'
 import { fetchGithubTopics } from './lib/aggregate/sources/github-topics.mjs'
 import { fetchComposioSeed } from './lib/aggregate/sources/composio-seed.mjs'
+import { fetchAcrylSeed } from './lib/aggregate/sources/acryl-seed.mjs'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const outputPath = resolve(root, 'src', 'data', 'consolidated-catalog.json')
@@ -54,6 +55,7 @@ async function main() {
   results.push(await runSource('awesome-dsh-plugin', () => fetchAwesomeDsh({ log })))
   results.push(await runSource('github-topic', () => fetchGithubTopics({ topics: GITHUB_TOPICS, token, log })))
   results.push(await runSource('composio', () => fetchComposioSeed()))
+  results.push(await runSource('acryl-seed', () => fetchAcrylSeed()))
 
   const merged = mergeEntries(results.flatMap(result => result.entries), generatedAt)
   const catalog = {
